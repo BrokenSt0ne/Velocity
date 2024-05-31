@@ -35,7 +35,7 @@ Material:
     - _InnerRadius: 0.1
     - _OtherCircleSpeed: 10
     - _RadiusOffset: 0.03
-    - _Speed: 0
+    - _Speed: 9.852827
     - _Thickness: 0.005
     m_Colors:
     - _Color: {r: 0.625, g: 0.19301471, b: 0.19301471, a: 1}
