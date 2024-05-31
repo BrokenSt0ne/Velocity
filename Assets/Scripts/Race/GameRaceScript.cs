@@ -43,7 +43,6 @@ namespace Race
 
         private void Awake()
         {
-            Cursor.lockState = CursorLockMode.Locked;
             UnfreezeTime = float.PositiveInfinity;
             Movement = GetComponent<MovementBehaviour>();
             demoRecorder = GetComponent<DemoRecorder>();

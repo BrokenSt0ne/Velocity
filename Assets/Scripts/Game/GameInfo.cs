@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Threading;
 using Api;
@@ -76,6 +77,8 @@ namespace Game
         //Player hit the goal
         public void RunFinished(long[] time, Demo demo)
         {
+            Cursor.lockState = CursorLockMode.None;
+
             currentDemo = demo;
 
             GameMenu.SingletonInstance.CloseAllWindows();

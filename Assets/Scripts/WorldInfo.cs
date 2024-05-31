@@ -76,6 +76,8 @@ public class WorldInfo : MonoBehaviour
 
     public void CreatePlayer(bool startInEditorMode)
     {
+        Cursor.lockState = CursorLockMode.Locked;
+
         //Instantiate a new player at the spawnpoint's location
         GameObject newPlayer = Instantiate(worldData.playerTemplate, Vector3.zero, Quaternion.identity);
         RaceScript = newPlayer.GetComponent<GameRaceScript>();
