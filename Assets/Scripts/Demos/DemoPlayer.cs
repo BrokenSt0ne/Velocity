@@ -107,7 +107,7 @@ namespace Demos
                     footOffset /= 2f;
                 lineRenderTicks[i] = tickList[i * 10].Position - footOffset;
             }
-            GetComponent<LineRenderer>().numPositions = lineRenderTicks.Length;
+            GetComponent<LineRenderer>().positionCount = lineRenderTicks.Length;
             GetComponent<LineRenderer>().SetPositions(lineRenderTicks);
 
             //Set up camera

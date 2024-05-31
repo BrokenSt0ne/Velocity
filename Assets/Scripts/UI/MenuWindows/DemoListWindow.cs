@@ -43,18 +43,18 @@ namespace UI.MenuWindows
             Transform t = GameMenu.CreatePanel(slot, demoPanelPrefab, demoContentPanel.transform).transform;
             MapData demoMap = GameInfo.info.MapManager.GetMapById(demo.MapID);
 
-            t.FindChild("Map").GetComponent<Text>().text = demoMap.name;
-            t.FindChild("Time").GetComponent<Text>().text = demo.TotalTickTime.ToTimeString();
-            t.FindChild("Player").GetComponent<Text>().text = demo.PlayerName;
+            t.Find("Map").GetComponent<Text>().text = demoMap.name;
+            t.Find("Time").GetComponent<Text>().text = demo.TotalTickTime.ToTimeString();
+            t.Find("Player").GetComponent<Text>().text = demo.PlayerName;
 
-            t.FindChild("Button").GetComponent<Button>().onClick.AddListener(() =>
+            t.Find("Button").GetComponent<Button>().onClick.AddListener(() =>
             {
                 loadingDemo = demo;
                 GameMenu.SingletonInstance.AddWindow(Window.LOADING);
                 SceneManager.sceneLoaded += LoadedDemoMap;
                 GameInfo.info.MapManager.LoadMap(demoMap);
             });
-            t.FindChild("Remove").GetComponent<Button>().onClick.AddListener(demo.DeleteDemoFile);
+            t.Find("Remove").GetComponent<Button>().onClick.AddListener(demo.DeleteDemoFile);
         }
 
         private void LoadedDemoMap(Scene scene, LoadSceneMode mode)

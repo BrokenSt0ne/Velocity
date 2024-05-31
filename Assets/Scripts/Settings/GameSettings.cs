@@ -176,7 +176,7 @@ namespace Settings
 
             QualitySettings.anisotropicFiltering = AnisotropicFiltering.value;
             QualitySettings.antiAliasing = AntiAliasing.value;
-            QualitySettings.masterTextureLimit = TextureSize.value;
+            QualitySettings.globalTextureMipmapLimit = TextureSize.value;
             QualitySettings.vSyncCount = VSyncSetting.value;
 
             if (OnSettingsChanged != null)

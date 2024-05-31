@@ -13,10 +13,10 @@ namespace UI
 
         private void Awake()
         {
-            timeObj = transform.FindChild("Time").GetComponent<Text>();
-            playerObj = transform.FindChild("Player").GetComponent<Text>();
-            rankObj = transform.FindChild("Rank").GetComponent<Text>();
-            donwloadButtonObj = transform.FindChild("GetDemo").GetComponent<Button>();
+            timeObj = transform.Find("Time").GetComponent<Text>();
+            playerObj = transform.Find("Player").GetComponent<Text>();
+            rankObj = transform.Find("Rank").GetComponent<Text>();
+            donwloadButtonObj = transform.Find("GetDemo").GetComponent<Button>();
         }
 
         public string Time

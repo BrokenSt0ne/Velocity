@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 Shader "Unlit/Crosshair"
 {
     Properties
@@ -84,7 +86,7 @@ Shader "Unlit/Crosshair"
             v2f vert(float4 vertex : POSITION, float4 texcoord : TEXCOORD0)
             {
                 v2f o;
-                o.pos = mul(UNITY_MATRIX_MVP, vertex);
+                o.pos = UnityObjectToClipPos(vertex);
                 o.uv = texcoord;
                 return o;
             }

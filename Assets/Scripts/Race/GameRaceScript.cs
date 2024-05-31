@@ -43,6 +43,7 @@ namespace Race
 
         private void Awake()
         {
+            Cursor.lockState = CursorLockMode.Locked;
             UnfreezeTime = float.PositiveInfinity;
             Movement = GetComponent<MovementBehaviour>();
             demoRecorder = GetComponent<DemoRecorder>();
@@ -160,6 +161,7 @@ namespace Race
             stopwatch.Stop();
             paused = true;
             Movement.Freeze();
+            Cursor.lockState = CursorLockMode.None;
         }
 
         public void Unpause()
@@ -169,6 +171,7 @@ namespace Race
                 stopwatch.Start();
                 paused = false;
                 Movement.Unfreeze();
+                Cursor.lockState = CursorLockMode.Locked;
             }
         }
 

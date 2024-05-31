@@ -65,8 +65,8 @@ namespace UI.MenuWindows
         {
             Transform t = GameMenu.CreatePanel(slot, editPanelPrefab, contentTransform).transform;
 
-            t.FindChild("Name").GetComponent<Text>().text = fileName;
-            t.FindChild("Button").GetComponent<Button>().onClick.AddListener(() => LoadEditorWithLevel(fileName));
+            t.Find("Name").GetComponent<Text>().text = fileName;
+            t.Find("Button").GetComponent<Button>().onClick.AddListener(() => LoadEditorWithLevel(fileName));
         }
 
         public void LoadEditorWithLevel(string levelName)
