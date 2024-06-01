@@ -2,7 +2,7 @@
 Velocity is a game about jumping and going fast. Has [source-engine](https://developer.valvesoftware.com/wiki/Source) style [strafing mechanics](https://wiki.sourceruns.org/wiki/Bunnyhopping).
 
 ## Download
-As of now you can download the original game from https://github.com/TheAsuro/Velocity or https://theasuro.de/Velocity/.
+You can get the game now at https://lunakittyyy.itch.io/velocity.
 
 ## Compiling
 Note: You will need to install both [Unity 2022.3.2f1](https://unity.com/releases/editor/whats-new/2022.3.2) and [Blender](https://www.blender.org/).
