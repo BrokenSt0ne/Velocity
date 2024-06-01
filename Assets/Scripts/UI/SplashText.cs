@@ -17,8 +17,16 @@ namespace UI
             "Bee-hop",
             "no human allowed",
             "this is not the WON version!!!",
+            "this is the WON version",
             "cbug isn't real, it can't hurt you!",
-            "meanwhile cbug"
+            "meanwhile cbug",
+            "John Velocity",
+            ":3",
+            "Free money update is coming soon",
+            "Guaranteed!",
+            "This year is the year of the Linux desktop, I promise",
+            "Made by gay cats",
+            "It's called Twitter, not X"
         };
 
         private void Awake() {
