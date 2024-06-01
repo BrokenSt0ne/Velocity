@@ -820,7 +820,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Velocity 0.4.3
+  m_Text: Velocity 0.4.4
 --- !u!1 &4162137148488561817
 GameObject:
   m_ObjectHideFlags: 0
@@ -961,7 +961,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: literally anything it doesn't matter
+  m_Text: Failed to choose a splash message
 --- !u!114 &190056347420643502
 MonoBehaviour:
   m_ObjectHideFlags: 0
