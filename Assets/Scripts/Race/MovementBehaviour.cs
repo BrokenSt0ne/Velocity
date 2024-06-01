@@ -188,7 +188,7 @@ namespace Race
             if (Time.time < lastJumpPress + jumpPressDuration && yVelocity < jumpForce && CheckGround())
             {
                 lastJumpPress = -1f;
-                // TODO @SOUND @NICE play jumping sound
+                GetComponent<AudioSource>().Play();
                 jumpVelocity = new Vector3(0f, jumpForce - yVelocity, 0f);
             }
 

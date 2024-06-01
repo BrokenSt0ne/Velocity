@@ -34,7 +34,9 @@ namespace UI
             "Go fast!",
             "It's free!",
             "Trans rights",
-            "Open-source!"
+            "Open-source!",
+            "car :D",
+            "shar :D"
         };
 
         private void Awake() {
