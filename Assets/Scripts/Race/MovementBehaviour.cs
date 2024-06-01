@@ -51,8 +51,8 @@ namespace Race
                 return;
 
             //Set key states
-            jumpKeyPressed = Input.GetButton("Jump");
-            crouchKeyPressed = Input.GetButton("Crouch");
+            jumpKeyPressed = Input.GetKey(KeyCode.Space);
+            crouchKeyPressed = Input.GetKey(KeyCode.LeftShift);
 
             if (jumpKeyPressed)
             {
@@ -118,7 +118,7 @@ namespace Race
             float speed = currentVelocity.magnitude;
 
             //Code from https://flafla2.github.io/2015/02/14/bunnyhop.html
-            if (!onGround || Input.GetButton("Jump") || speed == 0f)
+            if (!onGround || Input.GetKey(KeyCode.Space) || speed == 0f)
                 return currentVelocity;
 
             float drop = speed * friction * Time.deltaTime;

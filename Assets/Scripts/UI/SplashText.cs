@@ -14,7 +14,11 @@ namespace UI
             "tempel is the best map",
             "Shoutouts to Simpleflips",
             "Velocity!",
-            "Bee-hop"
+            "Bee-hop",
+            "no human allowed",
+            "this is not the WON version!!!",
+            "cbug isn't real, it can't hurt you!",
+            "meanwhile cbug"
         };
 
         private void Awake() {
