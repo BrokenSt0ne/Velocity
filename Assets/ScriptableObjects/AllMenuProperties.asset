@@ -18,7 +18,7 @@ MonoBehaviour:
     type: 3}
   bugReportPrefab: {fileID: 1165504620970574, guid: d7b8e8ee049e7d8419e98f5914c70529,
     type: 3}
-  demoListPrefab: {fileID: 1784234476449990, guid: 74fd4ff258e139b4cb983c85458896a1,
+  demoListPrefab: {fileID: 7694926242299754618, guid: 74fd4ff258e139b4cb983c85458896a1,
     type: 3}
   endLevelPrefab: {fileID: 1671944657354124, guid: f7ddce601584a4e4fa2fa7abb390dddb,
     type: 3}
@@ -32,12 +32,12 @@ MonoBehaviour:
     type: 3}
   loginWindowPrefab: {fileID: 5457810890308905277, guid: 195a9d24609acf7419db957cd8d7a666,
     type: 3}
-  mainMenuPrefab: {fileID: 5576404712749148487, guid: e1e24e769f1f7be4895f8a98c3282673,
+  mainMenuPrefab: {fileID: 4162137148488561817, guid: e1e24e769f1f7be4895f8a98c3282673,
     type: 3}
   newPlayerWindow: {fileID: 1158423609820914, guid: e1c76ef15d21ba3438fd72aa0f44aaf9,
     type: 3}
   playWindow: {fileID: 1172769785643108, guid: bc42f5f4aaf123c4f8172e68ab26fd45, type: 3}
-  settingsWindowPrefab: {fileID: 1512094930078886, guid: 439d989b0ba41fb4c85cd2e24f5ed582,
+  settingsWindowPrefab: {fileID: 6711016596318471652, guid: 439d989b0ba41fb4c85cd2e24f5ed582,
     type: 3}
   errorWindowPrefab: {fileID: 1786891911321936, guid: 7de5588f411dc054f932722bd732171f,
     type: 3}
